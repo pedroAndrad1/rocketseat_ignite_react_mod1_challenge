@@ -25,7 +25,7 @@ export const SubmitNewTask = styled.button`
 
   border-radius: 8px;
   border: none;
-  background-color: #1e6f9f;
+  background-color: #4ea8de;
   color: #fff;
   font-weight: bold;
   padding: 1rem;
@@ -34,6 +34,6 @@ export const SubmitNewTask = styled.button`
   cursor: pointer;
 
   &:hover {
-    filter: brightness(1.3);
+    filter: brightness(0.7);
   }
 `;

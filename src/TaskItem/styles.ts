@@ -6,7 +6,9 @@ export const TaskContainer = styled.li`
   align-items: center;
   justify-content: flex-start;
 
-  background: #262626;
+  backdrop-filter: blur(25px) saturate(92%);
+  -webkit-backdrop-filter: blur(25px) saturate(92%);
+  background-color: rgba(38, 38, 38, 0.4);
   border: 1px solid #333333;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
