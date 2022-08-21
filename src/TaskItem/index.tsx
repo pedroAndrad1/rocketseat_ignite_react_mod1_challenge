@@ -22,7 +22,7 @@ const TaskItem = ({ task }: TaskProps) => {
   };
 
   return (
-    <TaskContainer>
+    <TaskContainer className="animeLeft">
       <Checkbox>
         <input
           type="checkbox"
